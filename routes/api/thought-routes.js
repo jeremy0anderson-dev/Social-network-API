@@ -11,7 +11,7 @@ router.route("/:id")
     .put(thoughtsController.updateThoughts)
     .delete(thoughtsController.deleteThoughts);
 
-router.route("/:userId")
+router.route("/:id")
     .post(thoughtsController.createThoughts)
 
 router.route("/:thoughtId/reactions")

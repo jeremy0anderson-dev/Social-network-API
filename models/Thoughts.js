@@ -16,7 +16,7 @@ const thoughtSchema = new Schema({
     },
     username: {
         type: String,
-        required: "username required"
+         required: "user id required"
     },
     reactions:[require('./Reactions')]
 },{

@@ -6,13 +6,13 @@ router.route('/')
     .post(usersController.createUsers);
 
 
-router.route('/:userId')
+router.route('/:id')
     .get(usersController.getUsersById)
     .put(usersController.updateUsers)
     .delete(usersController.deleteUsers);
 
 
-router.route('/:userId/friends/:friendId')
+router.route('/:id/friends/:friendId')
     .put(usersController.addFriend)
     .delete(usersController.deleteFriend);
 
