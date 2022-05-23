@@ -46,3 +46,6 @@ A REST API for a social network. Built with Express, Mongoose, and MongoDB.
 
 ## Questions
 If you have questions, email me at [projects@jeremyanderson.dev](mailto:projects@jeremyanderson.dev) or reach out on [GitHub](https://www.github.com/jeremy0anderson).
+
+## Video Walkthrough / Demo
+[Watch Here] (https://drive.google.com/file/d/14QRGIlP37n8v5GMyhs6roavbmUiFg9Xb/view?usp=sharing)
