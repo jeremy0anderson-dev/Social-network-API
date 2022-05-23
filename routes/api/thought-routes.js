@@ -11,13 +11,11 @@ router.route("/:id")
     .put(thoughtsController.updateThoughts)
     .delete(thoughtsController.deleteThoughts);
 
-router.route("/:id")
+router.route("/:userId")
     .post(thoughtsController.createThoughts)
 
 router.route("/:thoughtId/reactions")
-    .post((req, res)=>{
-        thoughtsController.addReaction(req, res)
-    });
+    .post(thoughtsController.addReaction);
 router.route("/:thoughtId/reactions/:reactionId")
     .delete(thoughtsController.deleteReaction);
 
